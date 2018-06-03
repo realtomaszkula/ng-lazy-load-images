@@ -1,0 +1,28 @@
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+section:nth-child(even) {
+  background-color: var(--primary);
+}
+
+section:nth-child(odd) {
+  background-color: var(--accent);
+}
+
+img {
+  box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 250px;
+  height: 250px;
+}
+
+button {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
